@@ -2,7 +2,7 @@
 [Base16](https://github.com/chriskempson/base16) for the [kitty](https://github.com/kovidgoyal/kitty) terminal emulator
 
 # Installation
-Simply copy the contents of your desired color scheme into your `kitty.conf` file. If you already have a color scheme in your configuration, be sure to remove or comment it out.
+Simply copy the contents of your desired color scheme into your `kitty.conf` file. If you already have colors defined in your configuration, be sure to remove or comment it out.
 
 `kitty.conf` location:
  - Linux: `~/.config/kitty/kitty.conf`
