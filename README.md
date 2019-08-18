@@ -1,15 +1,30 @@
 # base16-kitty
-[Base16](https://github.com/chriskempson/base16) for the [kitty](https://github.com/kovidgoyal/kitty) terminal emulator
 
-# Installation
-Simply copy the contents of your desired color scheme into your `kitty.conf` file. If you already have a color scheme in your configuration, be sure to remove or comment it out.
+A set of [Base16](https://github.com/chriskempson/base16) scheme templates for
+the [kitty](https://github.com/kovidgoyal/kitty) terminal emulator. These
+templates can be used with any compliant Base16 builder. **Pre-built** schemes
+are also available in the [`colors`](https://github.com/kdrag0n/base16-kitty/tree/master/colors)
+directory of this repository for convenience.
 
-`kitty.conf` location:
- - Linux: `~/.config/kitty/kitty.conf`
- - macOS: `~/Library/Preferences/kitty/kitty.conf`
+## Installation
 
-# `256` Variants
+Simply copy the contents of your desired color scheme into your kitty
+configuration (`kitty.conf`). If you already have a color scheme defined,
+remove it or comment it out before importing the new scheme.
 
-The 256 variants are for those who wish to continue using the 16 ANSI colors but don't want to end up with weird-looking colors instead of bright ones. Because base16 schemes have 16 colors only, the bright colors mirror their non-bright variants instead of being unique colors.
+`kitty.conf` locations:
 
-### TL;DR if some colors look weird, darker than normal, or incorrect, try the `256` variant.
+- Linux: `~/.config/kitty/kitty.conf`
+- macOS: `~/Library/Preferences/kitty/kitty.conf`
+
+Note that kitty will need to be restarted for the change to take effect.
+
+## 256-color variants
+
+The 256-color variants are for those who wish to use the 16 ANSI colors while
+retaining accuracy for bright color variants. This is achieved by making the
+bright variants mirror their regular counterparts instead of attempting to map
+them to other Base16 colors.
+
+**TL;DR**: If some colors look strange or darker than normal, try the
+256-color variant of your scheme of choice.
