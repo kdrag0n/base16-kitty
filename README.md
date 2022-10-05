@@ -6,6 +6,10 @@ templates can be used with any compliant Base16 builder. **Pre-built** schemes
 are also available in the [`colors`](https://github.com/kdrag0n/base16-kitty/tree/master/colors)
 directory of this repository for convenience.
 
+## [More themes](https://hueflake.dev/?utm_source=gh-base16-kitty)
+
+[**Check out Hueflake for high-quality, infinitely customizable Kitty themes**](https://hueflake.dev/?utm_source=gh-base16-kitty)
+
 ## Installation
 
 Simply copy the contents of your desired color scheme into your kitty
